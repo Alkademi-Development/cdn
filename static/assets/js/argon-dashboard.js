@@ -281,10 +281,10 @@ function toggleNavLinksColor(type) {
       // element.classList.add('text-white')
     // });
 
-    navLinksToggler.forEach(element => {
-      element.classList.remove('bg-dark')
-      element.classList.add('bg-white')
-    });
+    // navLinksToggler.forEach(element => {
+    //   element.classList.remove('bg-dark')
+    //   element.classList.add('bg-white')
+    // });
   }
 }
 
