@@ -276,10 +276,10 @@ function toggleNavLinksColor(type) {
       element.classList.remove('bg-white')
     });
   } else if (type === "transparent") {
-    navLinks.forEach(element => {
-      console.log(element)
+    // navLinks.forEach(element => {
+      // console.log(element)
       // element.classList.add('text-white')
-    });
+    // });
 
     navLinksToggler.forEach(element => {
       element.classList.remove('bg-dark')
